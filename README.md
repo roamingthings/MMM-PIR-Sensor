@@ -110,6 +110,20 @@ The following properties can be configured:
 			</td>
 		</tr>
 		<tr>
+			<td><code>powerOnCmd</code></td>
+			<td>Use the provided command to power on the display.<br>
+				<br><b>Possible values:</b> <code>string</code>
+				<br><b>Default value:</b> <code>"/usr/local/bin/bl_on.sh"</code>
+			</td>
+		</tr>
+		<tr>
+			<td><code>powerOffCmd</code></td>
+			<td>Use the provided command to power off the display.<br>
+				<br><b>Possible values:</b> <code>string</code>
+				<br><b>Default value:</b> <code>"/usr/local/bin/bl_off.sh"</code>
+			</td>
+		</tr>
+		<tr>
 			<td><code>powerSavingNotification</code></td>
 			<td>To display a notification before to switch screen off<br>
 				<br><b>Possible values:</b> <code>boolean</code>

@@ -12,6 +12,8 @@ Module.register('MMM-PIR-Sensor',{
 	defaults: {
 		sensorPin: 22,
 		sensorState: 1,
+		powerOnCmd: "/usr/local/bin/bl_on.sh",
+		powerOffCmd: "/usr/local/bin/bl_off.sh",
 		relayPin: false,
 		relayState: 1,
 		alwaysOnPin: false,
